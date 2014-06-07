@@ -1,0 +1,501 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7A76EC5F19435932008F7ECE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A76EC5E19435932008F7ECE /* Foundation.framework */; };
+		7A76EC6119435932008F7ECE /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A76EC6019435932008F7ECE /* CoreGraphics.framework */; };
+		7A76EC6319435932008F7ECE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A76EC6219435932008F7ECE /* UIKit.framework */; };
+		7A76EC6519435932008F7ECE /* SpriteKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A76EC6419435932008F7ECE /* SpriteKit.framework */; };
+		7A76EC6B19435932008F7ECE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7A76EC6919435932008F7ECE /* InfoPlist.strings */; };
+		7A76EC6D19435932008F7ECE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A76EC6C19435932008F7ECE /* main.m */; };
+		7A76EC7119435932008F7ECE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A76EC7019435932008F7ECE /* AppDelegate.m */; };
+		7A76EC7419435932008F7ECE /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7A76EC7219435932008F7ECE /* Main_iPhone.storyboard */; };
+		7A76EC7719435932008F7ECE /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7A76EC7519435932008F7ECE /* Main_iPad.storyboard */; };
+		7A76EC7A19435932008F7ECE /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A76EC7919435932008F7ECE /* ViewController.m */; };
+		7A76EC7D19435932008F7ECE /* MyScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A76EC7C19435932008F7ECE /* MyScene.m */; };
+		7A76EC7F19435932008F7ECE /* Spaceship.png in Resources */ = {isa = PBXBuildFile; fileRef = 7A76EC7E19435932008F7ECE /* Spaceship.png */; };
+		7A76EC8119435932008F7ECE /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7A76EC8019435932008F7ECE /* Images.xcassets */; };
+		7A76EC8819435932008F7ECE /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A76EC8719435932008F7ECE /* XCTest.framework */; };
+		7A76EC8919435932008F7ECE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A76EC5E19435932008F7ECE /* Foundation.framework */; };
+		7A76EC8A19435932008F7ECE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A76EC6219435932008F7ECE /* UIKit.framework */; };
+		7A76EC9219435932008F7ECE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7A76EC9019435932008F7ECE /* InfoPlist.strings */; };
+		7A76EC9419435932008F7ECE /* FishGhostTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A76EC9319435932008F7ECE /* FishGhostTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7A76EC8B19435932008F7ECE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7A76EC5319435931008F7ECE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7A76EC5A19435932008F7ECE;
+			remoteInfo = FishGhost;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7A76EC5B19435932008F7ECE /* FishGhost.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FishGhost.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7A76EC5E19435932008F7ECE /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		7A76EC6019435932008F7ECE /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		7A76EC6219435932008F7ECE /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		7A76EC6419435932008F7ECE /* SpriteKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SpriteKit.framework; path = System/Library/Frameworks/SpriteKit.framework; sourceTree = SDKROOT; };
+		7A76EC6819435932008F7ECE /* FishGhost-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "FishGhost-Info.plist"; sourceTree = "<group>"; };
+		7A76EC6A19435932008F7ECE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		7A76EC6C19435932008F7ECE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		7A76EC6E19435932008F7ECE /* FishGhost-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "FishGhost-Prefix.pch"; sourceTree = "<group>"; };
+		7A76EC6F19435932008F7ECE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		7A76EC7019435932008F7ECE /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		7A76EC7319435932008F7ECE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
+		7A76EC7619435932008F7ECE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
+		7A76EC7819435932008F7ECE /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		7A76EC7919435932008F7ECE /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		7A76EC7B19435932008F7ECE /* MyScene.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyScene.h; sourceTree = "<group>"; };
+		7A76EC7C19435932008F7ECE /* MyScene.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyScene.m; sourceTree = "<group>"; };
+		7A76EC7E19435932008F7ECE /* Spaceship.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Spaceship.png; sourceTree = "<group>"; };
+		7A76EC8019435932008F7ECE /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		7A76EC8619435932008F7ECE /* FishGhostTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FishGhostTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7A76EC8719435932008F7ECE /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		7A76EC8F19435932008F7ECE /* FishGhostTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "FishGhostTests-Info.plist"; sourceTree = "<group>"; };
+		7A76EC9119435932008F7ECE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		7A76EC9319435932008F7ECE /* FishGhostTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FishGhostTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7A76EC5819435932008F7ECE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7A76EC6119435932008F7ECE /* CoreGraphics.framework in Frameworks */,
+				7A76EC6319435932008F7ECE /* UIKit.framework in Frameworks */,
+				7A76EC6519435932008F7ECE /* SpriteKit.framework in Frameworks */,
+				7A76EC5F19435932008F7ECE /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7A76EC8319435932008F7ECE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7A76EC8819435932008F7ECE /* XCTest.framework in Frameworks */,
+				7A76EC8A19435932008F7ECE /* UIKit.framework in Frameworks */,
+				7A76EC8919435932008F7ECE /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7A76EC5219435931008F7ECE = {
+			isa = PBXGroup;
+			children = (
+				7A76EC6619435932008F7ECE /* FishGhost */,
+				7A76EC8D19435932008F7ECE /* FishGhostTests */,
+				7A76EC5D19435932008F7ECE /* Frameworks */,
+				7A76EC5C19435932008F7ECE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7A76EC5C19435932008F7ECE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7A76EC5B19435932008F7ECE /* FishGhost.app */,
+				7A76EC8619435932008F7ECE /* FishGhostTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7A76EC5D19435932008F7ECE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7A76EC5E19435932008F7ECE /* Foundation.framework */,
+				7A76EC6019435932008F7ECE /* CoreGraphics.framework */,
+				7A76EC6219435932008F7ECE /* UIKit.framework */,
+				7A76EC6419435932008F7ECE /* SpriteKit.framework */,
+				7A76EC8719435932008F7ECE /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7A76EC6619435932008F7ECE /* FishGhost */ = {
+			isa = PBXGroup;
+			children = (
+				7A76EC6F19435932008F7ECE /* AppDelegate.h */,
+				7A76EC7019435932008F7ECE /* AppDelegate.m */,
+				7A76EC7219435932008F7ECE /* Main_iPhone.storyboard */,
+				7A76EC7519435932008F7ECE /* Main_iPad.storyboard */,
+				7A76EC7819435932008F7ECE /* ViewController.h */,
+				7A76EC7919435932008F7ECE /* ViewController.m */,
+				7A76EC7B19435932008F7ECE /* MyScene.h */,
+				7A76EC7C19435932008F7ECE /* MyScene.m */,
+				7A76EC7E19435932008F7ECE /* Spaceship.png */,
+				7A76EC8019435932008F7ECE /* Images.xcassets */,
+				7A76EC6719435932008F7ECE /* Supporting Files */,
+			);
+			path = FishGhost;
+			sourceTree = "<group>";
+		};
+		7A76EC6719435932008F7ECE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7A76EC6819435932008F7ECE /* FishGhost-Info.plist */,
+				7A76EC6919435932008F7ECE /* InfoPlist.strings */,
+				7A76EC6C19435932008F7ECE /* main.m */,
+				7A76EC6E19435932008F7ECE /* FishGhost-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		7A76EC8D19435932008F7ECE /* FishGhostTests */ = {
+			isa = PBXGroup;
+			children = (
+				7A76EC9319435932008F7ECE /* FishGhostTests.m */,
+				7A76EC8E19435932008F7ECE /* Supporting Files */,
+			);
+			path = FishGhostTests;
+			sourceTree = "<group>";
+		};
+		7A76EC8E19435932008F7ECE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7A76EC8F19435932008F7ECE /* FishGhostTests-Info.plist */,
+				7A76EC9019435932008F7ECE /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7A76EC5A19435932008F7ECE /* FishGhost */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7A76EC9719435932008F7ECE /* Build configuration list for PBXNativeTarget "FishGhost" */;
+			buildPhases = (
+				7A76EC5719435932008F7ECE /* Sources */,
+				7A76EC5819435932008F7ECE /* Frameworks */,
+				7A76EC5919435932008F7ECE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FishGhost;
+			productName = FishGhost;
+			productReference = 7A76EC5B19435932008F7ECE /* FishGhost.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7A76EC8519435932008F7ECE /* FishGhostTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7A76EC9A19435932008F7ECE /* Build configuration list for PBXNativeTarget "FishGhostTests" */;
+			buildPhases = (
+				7A76EC8219435932008F7ECE /* Sources */,
+				7A76EC8319435932008F7ECE /* Frameworks */,
+				7A76EC8419435932008F7ECE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7A76EC8C19435932008F7ECE /* PBXTargetDependency */,
+			);
+			name = FishGhostTests;
+			productName = FishGhostTests;
+			productReference = 7A76EC8619435932008F7ECE /* FishGhostTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7A76EC5319435931008F7ECE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Thorny bamboo technology";
+				TargetAttributes = {
+					7A76EC8519435932008F7ECE = {
+						TestTargetID = 7A76EC5A19435932008F7ECE;
+					};
+				};
+			};
+			buildConfigurationList = 7A76EC5619435931008F7ECE /* Build configuration list for PBXProject "FishGhost" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7A76EC5219435931008F7ECE;
+			productRefGroup = 7A76EC5C19435932008F7ECE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7A76EC5A19435932008F7ECE /* FishGhost */,
+				7A76EC8519435932008F7ECE /* FishGhostTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7A76EC5919435932008F7ECE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7A76EC7F19435932008F7ECE /* Spaceship.png in Resources */,
+				7A76EC8119435932008F7ECE /* Images.xcassets in Resources */,
+				7A76EC7719435932008F7ECE /* Main_iPad.storyboard in Resources */,
+				7A76EC7419435932008F7ECE /* Main_iPhone.storyboard in Resources */,
+				7A76EC6B19435932008F7ECE /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7A76EC8419435932008F7ECE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7A76EC9219435932008F7ECE /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7A76EC5719435932008F7ECE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7A76EC7D19435932008F7ECE /* MyScene.m in Sources */,
+				7A76EC7A19435932008F7ECE /* ViewController.m in Sources */,
+				7A76EC7119435932008F7ECE /* AppDelegate.m in Sources */,
+				7A76EC6D19435932008F7ECE /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7A76EC8219435932008F7ECE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7A76EC9419435932008F7ECE /* FishGhostTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7A76EC8C19435932008F7ECE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7A76EC5A19435932008F7ECE /* FishGhost */;
+			targetProxy = 7A76EC8B19435932008F7ECE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		7A76EC6919435932008F7ECE /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7A76EC6A19435932008F7ECE /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		7A76EC7219435932008F7ECE /* Main_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7A76EC7319435932008F7ECE /* Base */,
+			);
+			name = Main_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		7A76EC7519435932008F7ECE /* Main_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7A76EC7619435932008F7ECE /* Base */,
+			);
+			name = Main_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		7A76EC9019435932008F7ECE /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7A76EC9119435932008F7ECE /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7A76EC9519435932008F7ECE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7A76EC9619435932008F7ECE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7A76EC9819435932008F7ECE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FishGhost/FishGhost-Prefix.pch";
+				INFOPLIST_FILE = "FishGhost/FishGhost-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SPRITEKIT_TEXTURE_ATLAS_OUTPUT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		7A76EC9919435932008F7ECE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FishGhost/FishGhost-Prefix.pch";
+				INFOPLIST_FILE = "FishGhost/FishGhost-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SPRITEKIT_TEXTURE_ATLAS_OUTPUT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		7A76EC9B19435932008F7ECE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/FishGhost.app/FishGhost";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FishGhost/FishGhost-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "FishGhostTests/FishGhostTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		7A76EC9C19435932008F7ECE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/FishGhost.app/FishGhost";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FishGhost/FishGhost-Prefix.pch";
+				INFOPLIST_FILE = "FishGhostTests/FishGhostTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7A76EC5619435931008F7ECE /* Build configuration list for PBXProject "FishGhost" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7A76EC9519435932008F7ECE /* Debug */,
+				7A76EC9619435932008F7ECE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7A76EC9719435932008F7ECE /* Build configuration list for PBXNativeTarget "FishGhost" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7A76EC9819435932008F7ECE /* Debug */,
+				7A76EC9919435932008F7ECE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		7A76EC9A19435932008F7ECE /* Build configuration list for PBXNativeTarget "FishGhostTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7A76EC9B19435932008F7ECE /* Debug */,
+				7A76EC9C19435932008F7ECE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7A76EC5319435931008F7ECE /* Project object */;
+}
